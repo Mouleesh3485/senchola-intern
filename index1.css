@@ -115,22 +115,13 @@ body {
     cursor: pointer;
   }
 
-@media (max-width: 768px) {
-   
+@media only screen and (max-width: 768px) {
     .nav-links {
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
-}
 
-@media (max-width: 576px) {
-   
     .nav-links li {
-        margin-right: 0;
-        text-align: center;
-    }
-
-    .contactus {
-        margin-left: 0;
-        margin-top: 10px;
+        margin: 0 0 10px 0;
     }
 }
