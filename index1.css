@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trirong', serif;
+    background-image: url("hotel3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
+}
+
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px; 
+    border-radius: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links li {
+    margin-right: 10px; 
+   
+}
+
+.nav-links a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  
+}
+
+.nav-links a:hover {
+    background-color:whitesmoke;
+}
+
+.contactus {
+    margin-left: auto;
+    border-radius: 35px;
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.new {
+    text-align: center;
+}
+
+.agency-text {
+    font-family: 'Trirong', serif; 
+}
+
+.button {
+    margin-top: 20px;
+}
+
+
+.button1{
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+  .button2{
+    padding: 20px;
+    border-radius: 12px;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+@media (max-width: 768px) {
+   
+    .nav-links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+   
+    .nav-links li {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .contactus {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
